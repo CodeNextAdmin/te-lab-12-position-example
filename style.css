@@ -14,18 +14,19 @@ h1 {
 
   background:#f2f2f2;
   
+  
 }
 
 .pos-relative{
   
   position:relative; 
+  vertical-align: middle; /*remove this and see how it changes */
   
-  
-  display:;
+  display:inline-block;
   width:150px;
   height:150px;
   text-align:center;
-  margin-top:20px; /*change to top together with positon relative */
+
   
   
    
@@ -52,6 +53,15 @@ h1 {
 }
 
 .pos-absolute{
+  
+  position:absolute;
+  text-align:center;
+  background:teal;
+  color:white;
+  width: 150px;
+  height: 150px;
+  
+  /*pin to 
   
   
 }
