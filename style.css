@@ -9,3 +9,22 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+.pos-relative{
+  
+  position:relative;
+  display:inline-block;
+  width:150px;
+  height:150px;
+  text-align:center;
+   
+}
+
+.left{
+  background:chartreuse;
+  
+}
+.right{
+  
+  background:magenta;
+}
