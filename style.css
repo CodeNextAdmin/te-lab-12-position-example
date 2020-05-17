@@ -17,14 +17,27 @@ h1 {
   width:150px;
   height:150px;
   text-align:center;
+  vertical-align:center;
+  
    
 }
 
+
 .left{
   background:chartreuse;
+  color:magenta;
+  
+  /*
+  position:absolute;
+  margin-top:20px;
+  margin-left:20px
+  
+  */
   
 }
 .right{
   
   background:magenta;
+  color:chartreuse;
+  /*position:absolute;*/
 }
