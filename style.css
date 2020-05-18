@@ -59,7 +59,8 @@ h1 {
 
 img{
   width:150px;
-    height:150px;
-   
-  object-fit: cover;
+  height:150px;
+  display:inline-block;
+  
+  object-fit: cover; /*crops the picture to fit our square divs */
 }
