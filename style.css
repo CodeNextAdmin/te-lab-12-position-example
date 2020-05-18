@@ -82,3 +82,10 @@ img{
   
   object-fit: cover; /*crops the picture to dimensions */
 }
+.caption{
+
+  position:relative;
+  display:inline-block;
+  width:70%;
+  vertical-align: middle;
+}
