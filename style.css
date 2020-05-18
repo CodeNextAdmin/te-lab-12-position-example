@@ -14,7 +14,7 @@ h1 {
   background: #f2f2f2;
   padding: 20px;
   margin:20px;
-  width:70%;
+  width:700px; /* change to fixed pixel value */
    
 }
 
@@ -75,17 +75,19 @@ h1 {
   right: 10px;
 }
 
+/* together with the container div, the image and caption can be side by side */
 img{
   width:150px;
   height:150px;
   display:inline-block;
-  
+  vertical-align: top; /*try middle or bottom */
   object-fit: cover; /*crops the picture to dimensions */
 }
 .caption{
 
   position:relative;
   display:inline-block;
-  width:70%;
-  vertical-align: middle;
-}
+  width:70%; /* adjust this as the container width changes */
+  margin-left:20px; 
+  margin-right:20px;
+ }
