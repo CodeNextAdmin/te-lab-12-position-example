@@ -80,5 +80,5 @@ img{
   height:150px;
   display:inline-block;
   
-  object-fit: cover; /*crops the picture to fit our square divs */
+  object-fit: cover; /*crops the picture to dimensions */
 }
