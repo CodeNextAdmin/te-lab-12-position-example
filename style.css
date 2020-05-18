@@ -13,7 +13,7 @@ h1 {
 .container {
   background: #f2f2f2;
   padding: 20px;
-  margin-top:20px;
+  margin:20px;
 }
 
 .pos-relative {
@@ -48,9 +48,23 @@ h1 {
   text-align: center;
   background: teal;
   color: white;
+  width: 100%;
+  height: auto;
+
+  /*pin to the top: */
+
+  top: 10px;
+  right: 10px;
+}
+
+.pos-fixed {
+  position: fixed;
+  text-align: center;
+  background: cyan;
+  color: white;
   width: 150px;
   height: 150px;
-
+  
   /*pin to the bottom: */
 
   bottom: 10px;
